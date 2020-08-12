@@ -6,12 +6,35 @@ package com;
 
 public class DocumentData implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public DocumentData() {
-    }
+	@org.kie.api.definition.type.Label(value = "DocumentNo")
+	private java.lang.String documentNo;
+	@org.kie.api.definition.type.Label(value = "name")
+	private java.lang.String name;
 
+	public DocumentData() {
+	}
 
+	public java.lang.String getDocumentNo() {
+		return this.documentNo;
+	}
 
+	public void setDocumentNo(java.lang.String documentNo) {
+		this.documentNo = documentNo;
+	}
+
+	public java.lang.String getName() {
+		return this.name;
+	}
+
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public DocumentData(java.lang.String documentNo, java.lang.String name) {
+		this.documentNo = documentNo;
+		this.name = name;
+	}
 
 }
