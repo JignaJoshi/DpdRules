@@ -1,9 +1,13 @@
 package com.myspace;
 
 import java.lang.Number;
+import com.MechanicalEquipment;
 
 rule "MechanicalEquipmentRules"
 	dialect "mvel"
 	when
+		MechanicalEquipment( data != null , packageName == "TestPackage" )
 	then
+		MechanicalEquipment  = new MechanicalEquipment();
+		insert(  );
 end
