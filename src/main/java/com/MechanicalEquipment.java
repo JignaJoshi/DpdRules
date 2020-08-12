@@ -8,10 +8,19 @@ public class MechanicalEquipment implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
     private String packageName;
+    private String id;
 
     public MechanicalEquipment() {
        
     }
+
+    public String getId(){
+        return this.id;
+    }
+
+    public void setId(String id){
+         this.id = id;
+    } 
 
     public String getPackageName(){
         return this.packageName;
