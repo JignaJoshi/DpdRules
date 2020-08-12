@@ -12,7 +12,7 @@ public class MechanicalEquipment implements java.io.Serializable {
     static final long serialVersionUID = 1L;
     private String packageName;
     private String id;
-    Map<Object, Object> data = new HashMap <Object, Object>();
+    private Map<Object, Object> data;
 
     public MechanicalEquipment() {
        
