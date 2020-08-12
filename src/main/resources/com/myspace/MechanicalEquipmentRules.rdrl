@@ -8,6 +8,4 @@ rule "MechanicalEquipmentRules"
 	when
 		MechanicalEquipment( data != null , packageName == "TestPackage" )
 	then
-		MechanicalEquipment  = new MechanicalEquipment();
-		insert(  );
 end
