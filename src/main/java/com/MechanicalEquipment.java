@@ -7,11 +7,19 @@ package com;
 public class MechanicalEquipment implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
+    private String packageName;
 
     public MechanicalEquipment() {
+       
     }
 
+    public String getPackageName(){
+        return this.packageName;
+    }
 
-
+    public void setPackageName(String packageName){
+         this.packageName = packageName;
+    } 
+    
 
 }
