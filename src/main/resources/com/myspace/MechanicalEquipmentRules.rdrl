@@ -1,0 +1,9 @@
+package com.myspace;
+
+import java.lang.Number;
+
+rule "MechanicalEquipmentRules"
+	dialect "mvel"
+	when
+	then
+end
