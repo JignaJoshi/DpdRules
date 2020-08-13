@@ -26,13 +26,13 @@ public class MechanicalEquipment implements java.io.Serializable {
          this.id = id;
     } 
 
-    public String getPackageName(){
-        return this.packageName;
-    }
+    // public String getPackageName(){
+    //     return this.packageName;
+    // }
 
-    public void setPackageName(String packageName){
-         this.packageName = packageName;
-    }
+    // public void setPackageName(String packageName){
+    //      this.packageName = packageName;
+    // }
     public void setData(Map<Object, Object> map)
     {
         this.data = map;
