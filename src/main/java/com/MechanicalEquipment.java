@@ -10,7 +10,7 @@ import java.util.Map;
 public class MechanicalEquipment implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
-    private String packageName;
+    
     private String id;
     private Map<Object, Object> data;
 
@@ -26,13 +26,6 @@ public class MechanicalEquipment implements java.io.Serializable {
          this.id = id;
     } 
 
-    // public String getPackageName(){
-    //     return this.packageName;
-    // }
-
-    // public void setPackageName(String packageName){
-    //      this.packageName = packageName;
-    // }
     public void setData(Map<Object, Object> map)
     {
         this.data = map;
